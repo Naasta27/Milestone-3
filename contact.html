@@ -1,0 +1,58 @@
+
+<nav>
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - My Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you! Please fill out the form below, and we'll get back to you as soon as possible.</p>
+    
+            <form id="contact-form" action="/submit-form" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Send Message">
+            </form>
+            
+            <h2>Our Office</h2>
+            <p>123 Web Dev Street, Suite 100, Tech City, 12345</p>
+    
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="https://twitter.com/username">Twitter</a></li>
+                <li><a href="https://facebook.com/username">Facebook</a></li>
+                <li><a href="https://linkedin.com/username">LinkedIn</a></li>
+            </ul>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
+    
